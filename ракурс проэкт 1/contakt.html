@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свяжитесь с нами | Творческое объединение "Ракурс"</title>
+    <link rel="icon" href="img/rakurs.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/contakt.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                Ракурс
+            </div>
+            <div class="mobile-menu">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="glav.html">Главная</a></li>
+                    <li><a href="contact.html" class="active">Свяжитесь с нами</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Свяжитесь с нами</h2>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info fade-in">
+                        <h3>Наши контакты</h3>
+                        <div class="contact-details">
+                            <p><i>📞</i> +7 (999) 123-45-67</p>
+                            <p><i>✉️</i> ракурс@mail.ru</p>
+                            <p><i>📍</i> г. Барнаул, ул. Творческая, д. 15</p>
+                            <p><i>🕒</i> Пн-Пт: 9:00-18:00</p>
+                        </div>
+                        <h3>Мы в социальных сетях</h3>
+                        <div class="social-links">
+                            <a href="https://vk.com/racourse22" target="_blank" class="social-link">VK</a>
+                        </div>
+                    </div>
+                    <div class="contact-form fade-in">
+                        <h3>Оставьте заявку</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Телефон</label>
+                                <input type="tel" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Услуга</label>
+                                <select id="service">
+                                    <option value="videomontage">Видеомонтаж</option>
+                                    <option value="photoprocessing">Обработка фото</option>
+                                    <option value="presentations">Презентации</option>
+                                    <option value="design">Дизайн</option>
+                                    <option value="events">Организация мероприятий</option>
+                                    <option value="projects">Творческие проекты</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Сообщение</label>
+                                <textarea id="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2023 Творческое объединение "Ракурс", Барнаул. Все права защищены.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://vk.com/racourse22" target="_blank">Мы в VK</a> | 
+                    <a href="#contact">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
